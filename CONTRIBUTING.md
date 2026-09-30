@@ -48,7 +48,7 @@ If you would like to contribute by fixing an open issue or developing a new feat
 
 1. Fork this repository.
 2. Create a new feature branch based off the `main` branch.
-3. Follow the [Core](#Core) and/or the [Documentation](#Documentation) guide below and come back to this once done.
+3. Follow the [Core](#core) and/or the [Documentation](#documentation) guide below and come back to this once done.
 4. Run `pnpm run fix:format` to format the code.
 5. Git stage your required changes and commit (review the commit guidelines below).
 6. Start or continue the relevant discussion, share your fork branch, and wait for maintainer guidance. We don't accept direct PRs, but a maintainer may open a PR from your fork branch for review.
@@ -61,7 +61,7 @@ If you would like to contribute by fixing an open issue or developing a new feat
 4. Run `pnpm run build` to build the library. _(Pro-tip: `pnpm run build-watch` runs the build in watch mode)_
 5. Run the tests by running `pnpm run test` and ensure that they pass.
 6. You can use `pnpm link` to sym-link this package and test it locally on your own project. Alternatively, you may use CodeSandbox CI's canary releases to test the changes in your own project. (requires a PR to be created first)
-7. Follow step 4 and onwards from the [General](#General) guide above to bring it to the finish line.
+7. Follow step 4 and onwards from the [General](#general) guide above to bring it to the finish line.
 
 ### Pull Requests
 
@@ -87,6 +87,6 @@ Our [docs](https://zustand.docs.pmnd.rs) are based on [`pmndrs/docs`](https://gi
    1. Run `pnpm install` to install dependencies.
    2. Navigate to the [`docs`](./docs/) folder and make necessary changes to the documents.
    3. Add your changes to the documents and see them live reloaded in the browser. (if you don't see changes, try `control + c`, then run `npm run dev` in the cloned `pmndrs/docs` repository)
-4. Follow step 4 and onwards from the [General](#General) guide above to bring it to the finish line.
+4. Follow step 4 and onwards from the [General](#general) guide above to bring it to the finish line.
 
 Thank you for contributing! :heart:
